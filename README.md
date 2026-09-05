@@ -162,7 +162,7 @@ The diagram below shows the current lab network design, including the Proxmox ho
 
 This repository will document the lab build and security workflow through focused technical notes, screenshots, and investigation writeups.
 
-### Planned Documentation Areas
+### Documentation Areas
 
 - Proxmox host setup and VM deployment
 - pfSense interface configuration and firewall segmentation
