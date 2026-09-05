@@ -95,34 +95,12 @@ The environment is designed to develop hands-on experience in virtualization, ne
 
 ---
 
-## Planned Lab Architecture
+## Network Diagram
 
-The environment will include separate virtual networks for enterprise systems, security tools, and attack simulation.
+The diagram below shows the current lab network design, including the Proxmox host, pfSense firewall, segmented lab networks, domain infrastructure, security tooling, and attack simulation network.
 
-```text
-Internet
-   |
-Home Router
-   |
-Proxmox Server
-   |
-pfSense Firewall
-   |
-   |-- Enterprise Network
-   |     |-- Windows Server / Domain Controller
-   |     |-- Windows 11 Endpoints
-   |
-   |-- Security Network
-   |     |-- Elastic Security
-   |     |-- Wazuh
-   |     |-- Velociraptor
-   |
-   |-- Attack Network
-         |-- Kali Linux
-         |-- Kali Purple
-```
+<img width="1448" height="1086" alt="CyberLab Network Diagram" src="https://github.com/user-attachments/assets/0fca246d-e6be-4907-b5c0-5dac78838217" />
 
-A complete network diagram will be added after the environment is configured.
 
 ---
 
