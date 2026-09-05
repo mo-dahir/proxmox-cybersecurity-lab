@@ -176,24 +176,20 @@ This repository will document the lab build and security workflow through focuse
 
 ---
 
-## Repository Structure
+## Portfolio Evidence
 
-```text
-proxmox-cybersecurity-lab/
-├── README.md
-├── architecture/
-├── deployment/
-├── networking/
-├── active-directory/
-├── siem/
-├── detections/
-├── investigations/
-├── screenshots/
-├── troubleshooting/
-└── lessons-learned/
-```
+This project will be supported by screenshots, configuration notes, detection logic, investigation writeups, and lessons learned that demonstrate the lab build and security workflow.
 
-These folders will be added as the project develops.
+Evidence will focus on:
+
+- Proxmox virtualization and VM deployment
+- pfSense firewall routing and segmentation
+- Open vSwitch network configuration
+- Active Directory domain services
+- Windows endpoint telemetry with Sysmon
+- Wazuh monitoring and alerting
+- Velociraptor endpoint DFIR and threat hunting
+- Attack simulation, detection engineering, and incident response
 
 ---
 
