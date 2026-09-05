@@ -103,6 +103,20 @@ The diagram below shows the current lab network design, including the Proxmox ho
 
 
 ---
+## Current Lab Systems
+
+| System | Network | IP Address | Role |
+|---|---|---|---|
+| Proxmox Host | Management | 192.168.1.240 | Hypervisor hosting the lab environment |
+| pfSense | WAN / MCORP / ALLSAFE / ATTACKLAN | 192.168.1.25 / 10.0.1.1 / 10.0.2.1 / 10.0.3.1 | Firewall, routing, and segmentation |
+| DC01 | MCORP | 10.0.1.2 | Domain controller, Active Directory, and DNS |
+| Win11-01 | MCORP | 10.0.1.12 | Domain-joined Windows endpoint |
+| Win11-02 | MCORP | 10.0.1.13 | Domain-joined Windows endpoint |
+| Kali Linux | ATTACKLAN | 10.0.3.2 | Attack simulation workstation |
+| Kali Purple | ALLSAFE | 10.0.2.2 | Defensive security workstation running Wazuh |
+| Ubuntu | ALLSAFE | 10.0.2.3 | Server running Velociraptor |
+
+---
 
 ## Project Roadmap
 
