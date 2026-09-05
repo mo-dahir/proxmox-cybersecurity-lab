@@ -1,42 +1,29 @@
+
+<img width="2056" height="765" alt="architecture:lab-banner" src="https://github.com/user-attachments/assets/36aa73ce-ee53-410d-929e-8f1609f9361a" />
+
 # Proxmox Enterprise Cybersecurity Lab
 
 ## Project Overview
 
 This project documents the design and deployment of an enterprise-style cybersecurity home lab built on a dedicated Proxmox server.
 
-The environment will be used to develop hands-on experience in virtualization, network segmentation, Active Directory, security monitoring, detection engineering, threat hunting, digital forensics, and incident response.
+The environment is designed to develop hands-on experience in virtualization, network segmentation, Active Directory, endpoint telemetry, SIEM/XDR monitoring, detection engineering, threat hunting, digital forensics, and incident response.
 
-> **Current Status:** Planning and infrastructure setup in progress.
-
----
-
-## Project Objectives
-
-* Deploy and manage a Type-1 hypervisor using Proxmox VE
-* Build segmented enterprise and attack networks
-* Configure pfSense firewall rules and network routing
-* Deploy Windows Server and Active Directory
-* Join Windows endpoints to the domain
-* Collect endpoint telemetry with Sysmon
-* Ingest and analyze security events using SIEM platforms
-* Simulate attacker activity from Kali Linux
-* Develop and test security detections
-* Perform digital forensic and incident response investigations
-* Document troubleshooting, findings, and lessons learned
+> **Current Status:** In progress — core infrastructure is deployed, with detection engineering, attack simulation, and incident-response documentation still underway.
 
 ---
 
 ## Hardware
 
-| Component   | Specification         |
-| ----------- | --------------------- |
-| Workstation | Dell Precision T5810  |
-| Processor   | Intel Xeon E5-2680 v4 |
-| Memory      | 64 GB DDR4 ECC RAM    |
-| Storage     | 960 GB SSD            |
-| Hypervisor  | Proxmox VE            |
-
----
+| Component | Specification |
+|---|---|
+| System | PowerSpec B947 |
+| CPU | AMD Ryzen 7 9800X3D |
+| Cores / Threads | 8 cores / 16 logical processors |
+| Memory | 64 GB DDR5 |
+| Storage | WD Blue SN5100 2TB NVMe SSD |
+| Network | Realtek PCIe 2.5GbE Ethernet |
+| Hypervisor | Proxmox VE |
 
 ## Planned Technology Stack
 
