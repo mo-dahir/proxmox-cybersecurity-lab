@@ -120,23 +120,41 @@ The diagram below shows the current lab network design, including the Proxmox ho
 
 ## Project Roadmap
 
-* [ ] Install and configure Proxmox VE
-* [ ] Create and configure virtual networks
-* [ ] Deploy pfSense
-* [ ] Configure firewall rules and segmentation
-* [ ] Deploy Windows Server
-* [ ] Configure Active Directory
-* [ ] Create users, groups, and organizational units
-* [ ] Join Windows endpoints to the domain
-* [ ] Install and configure Sysmon
-* [ ] Deploy Elastic Security
-* [ ] Deploy Wazuh
-* [ ] Deploy Velociraptor
-* [ ] Configure endpoint agents and log ingestion
-* [ ] Simulate attack activity
-* [ ] Build detection rules and threat-hunting queries
-* [ ] Conduct incident-response investigations
-* [ ] Publish final architecture and lessons learned
+<details>
+<summary><strong>Completed</strong></summary>
+
+<br>
+
+- [x] Install and configure Proxmox VE
+- [x] Upload required ISO files
+- [x] Deploy Windows 11 endpoint VMs
+- [x] Deploy Windows Server
+- [x] Deploy Kali Linux
+- [x] Deploy Kali Purple
+- [x] Deploy Ubuntu server
+- [x] Deploy pfSense firewall
+- [x] Configure pfSense interfaces
+- [x] Configure pfSense firewall rules and segmentation
+- [x] Install and configure Open vSwitch
+- [x] Configure Active Directory Domain Services
+- [x] Create Active Directory users, groups, and Group Policy
+- [x] Join Windows endpoints to the domain
+- [x] Install Sysmon on Windows systems
+- [x] Deploy Wazuh and enroll Windows agents
+- [x] Deploy Velociraptor and enroll Windows clients
+
+</details>
+
+### In Progress / Next Steps
+
+- [ ] Configure additional endpoint logging
+- [ ] Configure Wazuh dashboards, alerts, and detection rules
+- [ ] Configure Velociraptor hunts and artifact collection
+- [ ] Simulate attack activity using Kali Linux and Atomic Red Team
+- [ ] Build detection rules and threat-hunting queries
+- [ ] Conduct incident-response investigations
+- [ ] Document findings, screenshots, troubleshooting, and lessons learned
+- [ ] Publish final architecture and project summary
 
 ---
 
