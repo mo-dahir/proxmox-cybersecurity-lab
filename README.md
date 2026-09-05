@@ -25,45 +25,73 @@ The environment is designed to develop hands-on experience in virtualization, ne
 | Network | Realtek PCIe 2.5GbE Ethernet |
 | Hypervisor | Proxmox VE |
 
-## Planned Technology Stack
+## Technology Stack
 
-### Virtualization and Networking
+<details>
+<summary><strong>Virtualization and Networking</strong></summary>
 
-* Proxmox VE
-* Open vSwitch
-* pfSense
-* Virtual LAN and network segmentation
+<br>
 
-### Operating Systems
+- Proxmox VE
+- Open vSwitch
+- pfSense
+- VLAN-style network segmentation
+- Virtual bridges and internal lab networks
 
-* Windows Server
-* Windows 11
-* Ubuntu Linux
-* Kali Linux
-* Kali Purple
+</details>
 
-### Identity and Endpoint Security
+<details>
+<summary><strong>Operating Systems</strong></summary>
 
-* Active Directory Domain Services
-* Group Policy
-* Sysmon
-* Microsoft Defender
+<br>
 
-### Security Monitoring and Incident Response
+- Windows Server 2025
+- Windows 11 Enterprise
+- Ubuntu Linux
+- Kali Linux
+- Kali Purple
 
-* Elastic Security
-* Wazuh
-* Splunk
-* Velociraptor
-* VirusTotal
+</details>
 
-### Security Testing and Analysis
+<details>
+<summary><strong>Identity and Endpoint Security</strong></summary>
 
-* Atomic Red Team
-* Wireshark
-* Nmap
-* PowerShell
-* Digital forensic tools
+<br>
+
+- Active Directory Domain Services
+- DNS
+- Group Policy
+- Sysmon
+- Microsoft Defender
+
+</details>
+
+<details>
+<summary><strong>Security Monitoring and Incident Response</strong></summary>
+
+<br>
+
+- Wazuh
+- Velociraptor
+- Elastic Security
+- Splunk
+- VirusTotal
+
+</details>
+
+<details>
+<summary><strong>Security Testing and Analysis</strong></summary>
+
+<br>
+
+- Kali Linux
+- Atomic Red Team
+- Wireshark
+- Nmap
+- PowerShell
+- Digital forensic tools
+
+</details>
 
 ---
 
