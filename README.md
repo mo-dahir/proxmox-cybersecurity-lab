@@ -160,18 +160,19 @@ The diagram below shows the current lab network design, including the Proxmox ho
 
 ## Documentation Plan
 
-This repository will include:
+This repository will document the lab build and security workflow through focused technical notes, screenshots, and investigation writeups.
 
-* Architecture diagrams
-* Deployment documentation
-* Configuration notes
-* Screenshots
-* Commands and queries
-* Detection rules
-* Investigation reports
-* Troubleshooting records
-* Lessons learned
-* Security recommendations
+### Planned Documentation Areas
+
+- Proxmox host setup and VM deployment
+- pfSense interface configuration and firewall segmentation
+- Open vSwitch network configuration
+- Active Directory domain setup and endpoint joins
+- Sysmon deployment and Windows telemetry validation
+- Wazuh agent enrollment, dashboards, alerts, and detections
+- Velociraptor client enrollment, hunts, and artifact collection
+- Attack simulation and detection engineering
+- Incident-response investigations and lessons learned
 
 ---
 
