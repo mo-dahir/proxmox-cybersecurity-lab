@@ -118,4 +118,3 @@ This screenshot shows the Proxmox VE web interface, the `pve01` node, host resou
 This screenshot shows the uploaded ISO images used to deploy the lab systems, including Kali Linux, Kali Purple, Windows 11, Windows Server, Ubuntu, and VirtIO drivers.
 
 ---
----
