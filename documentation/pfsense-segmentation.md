@@ -79,4 +79,20 @@ Systems in this network include:
 
 This network design separates enterprise assets, security tools, and attack infrastructure into distinct zones while still allowing controlled routing and monitoring through pfSense.
 
+
+## Validation
+
+The pfSense configuration was validated by confirming that the firewall interfaces, network zones, and rules were visible in the pfSense web interface.
+
+Validation included:
+
+- Confirming pfSense was accessible through the web interface
+- Verifying WAN, MCORP, ALLSAFE, and ATTACKLAN interfaces were assigned
+- Confirming each internal lab network had its own gateway IP address
+- Reviewing firewall rules for the configured network zones
+- Confirming pfSense was positioned as the central routing and segmentation layer for the lab
+
+This validation confirmed that pfSense was ready to support controlled traffic flow between the lab networks and provide segmentation for future monitoring, attack simulation, and incident-response scenarios.
+
+
 ---
