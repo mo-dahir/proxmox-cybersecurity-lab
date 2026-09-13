@@ -174,6 +174,10 @@ This repository will document the lab build and security workflow through focuse
 - Attack simulation and detection engineering
 - Incident-response investigations and lessons learned
 
+
+### Documentation Pages
+
+- [Proxmox Host Setup and VM Deployment](documentation/proxmox-setup.md)
 ---
 
 ## Portfolio Evidence
