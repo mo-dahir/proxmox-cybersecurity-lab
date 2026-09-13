@@ -50,4 +50,24 @@ The uploaded ISO images supported deployment of:
 - VirtIO drivers for Windows virtual machines
 
 This step ensured that all required operating systems and drivers were available directly from Proxmox during VM creation and installation.
+
+
+## Virtual Machine Deployment
+
+Multiple virtual machines were created in Proxmox to support the lab environment.
+
+The initial VM deployment included:
+
+| Virtual Machine | Purpose |
+|---|---|
+| pfSense | Firewall, routing, and network segmentation |
+| DC01 | Windows Server domain controller and DNS server |
+| Win11-01 | Domain-joined Windows endpoint |
+| Win11-02 | Domain-joined Windows endpoint |
+| Kali Linux | Attack simulation and security testing workstation |
+| Kali Purple | Defensive security workstation running Wazuh |
+| Ubuntu | Server platform running Velociraptor |
+
+Each VM was deployed with resources appropriate for its role in the lab. Windows systems were configured with VirtIO drivers where needed to support virtualized storage and networking.
+
 ---
