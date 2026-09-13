@@ -46,4 +46,37 @@ The main segmentation goals were:
 
 This design allows the lab to simulate enterprise-style network separation while still supporting monitoring, logging, and controlled security testing.
 
+## Configured Lab Networks
+
+The pfSense firewall was configured to support three main internal lab networks.
+
+### MCORP
+
+The MCORP network represents the enterprise environment. This network contains the Windows domain infrastructure and domain-joined endpoints.
+
+Systems in this network include:
+
+- DC01
+- Win11-01
+- Win11-02
+
+### ALLSAFE
+
+The ALLSAFE network represents the defensive security environment. This network contains monitoring, SIEM/XDR, and DFIR tooling used to observe and investigate activity across the lab.
+
+Systems and tools in this network include:
+
+- Kali Purple running Wazuh
+- Ubuntu running Velociraptor
+
+### ATTACKLAN
+
+The ATTACKLAN network represents the isolated attack simulation environment. This network is used for controlled testing and future attack simulation activity.
+
+Systems in this network include:
+
+- Kali Linux
+
+This network design separates enterprise assets, security tools, and attack infrastructure into distinct zones while still allowing controlled routing and monitoring through pfSense.
+
 ---
