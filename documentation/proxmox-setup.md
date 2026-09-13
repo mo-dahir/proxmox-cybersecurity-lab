@@ -70,4 +70,21 @@ The initial VM deployment included:
 
 Each VM was deployed with resources appropriate for its role in the lab. Windows systems were configured with VirtIO drivers where needed to support virtualized storage and networking.
 
+
+## Validation
+
+The Proxmox environment was validated by confirming that the host was accessible through the web interface and that the deployed virtual machines were visible in the Proxmox inventory.
+
+Validation included:
+
+- Confirming Proxmox web management access
+- Verifying uploaded ISO images were available in storage
+- Confirming core virtual machines were created
+- Confirming Windows and Linux systems successfully booted
+- Confirming virtual networking was available for lab systems
+- Confirming the environment was ready for firewall, domain, endpoint, and security tooling configuration
+
+This validation confirmed that the core virtualization layer was ready to support the rest of the cybersecurity lab.
+
+
 ---
