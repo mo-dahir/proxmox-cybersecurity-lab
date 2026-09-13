@@ -18,4 +18,20 @@ This documentation covers the initial Proxmox setup and virtual machine deployme
 - Ubuntu Server VM deployment
 - Initial lab inventory validation
 
+
+## Lab Host Details
+
+| Component | Configuration |
+|---|---|
+| Hostname | pve01 |
+| Hypervisor | Proxmox VE |
+| Management IP | 192.168.1.240 |
+| Physical System | PowerSpec B947 |
+| CPU | AMD Ryzen 7 9800X3D |
+| Memory | 64 GB DDR5 |
+| Storage | 2 TB NVMe SSD |
+| Network Adapter | Realtek PCIe 2.5GbE Ethernet |
+
+This host provides the compute, memory, storage, and networking resources required to run the lab’s virtualized infrastructure.
+
 ---
