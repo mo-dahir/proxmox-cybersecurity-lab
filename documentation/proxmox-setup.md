@@ -87,4 +87,20 @@ Validation included:
 This validation confirmed that the core virtualization layer was ready to support the rest of the cybersecurity lab.
 
 
+## Skills Demonstrated
+
+This phase demonstrates foundational infrastructure and virtualization skills, including:
+
+- Type-1 hypervisor deployment
+- Virtual machine provisioning
+- ISO image management
+- Virtual hardware configuration
+- Windows and Linux VM deployment
+- Firewall VM deployment
+- Lab resource planning
+- Troubleshooting virtualized network and driver issues
+
+These skills support the rest of the lab by establishing a stable virtualization platform for networking, identity services, endpoint monitoring, SIEM/XDR tooling, DFIR, and attack simulation.
+
+
 ---
