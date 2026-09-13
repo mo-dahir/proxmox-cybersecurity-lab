@@ -178,6 +178,8 @@ This repository will document the lab build and security workflow through focuse
 ### Documentation Pages
 
 - [Proxmox Host Setup and VM Deployment](documentation/proxmox-setup.md)
+- [pfSense Firewall and Network Segmentation](documentation/pfsense-segmentation.md)
+  
 ---
 
 ## Portfolio Evidence
