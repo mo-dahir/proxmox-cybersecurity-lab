@@ -108,5 +108,25 @@ This phase demonstrates core networking and security infrastructure skills, incl
 
 These skills support the rest of the lab by creating the network boundaries needed for monitoring, detection engineering, threat hunting, and incident-response practice.
 
+## Evidence
+
+### pfSense Interface Assignments
+
+![pfSense Interface Assignments](../screenshots/pfsense/09-pfsense-interface-assignments.png)
+
+This screenshot shows the pfSense console with the WAN, LAN, OPT1, and OPT2 interfaces assigned to the lab networks. The interface assignments establish pfSense as the routing layer for the segmented environment.
+
+### pfSense Dashboard and Configured Interfaces
+
+![pfSense Dashboard Configured Interfaces](../screenshots/pfsense/10-pfsense-dashboard-configured-interfaces.png)
+
+This screenshot shows the pfSense web dashboard with the configured WAN, MCORP, ALLSAFE, and ATTACKLAN interfaces and their assigned IP addresses.
+
+### ALLSAFE Firewall Rule
+
+![ALLSAFE Firewall Rule](../screenshots/pfsense/11-pfsense-firewall-rules-allsafe-block-attacklan.png)
+
+This screenshot shows a firewall rule on the ALLSAFE interface blocking traffic from the ALLSAFE subnet to the ATTACKLAN subnet. This supports network segmentation by preventing defensive tooling systems from freely communicating with the attack simulation network.
+
 
 ---
