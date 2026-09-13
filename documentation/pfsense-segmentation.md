@@ -94,5 +94,19 @@ Validation included:
 
 This validation confirmed that pfSense was ready to support controlled traffic flow between the lab networks and provide segmentation for future monitoring, attack simulation, and incident-response scenarios.
 
+## Skills Demonstrated
+
+This phase demonstrates core networking and security infrastructure skills, including:
+
+- Firewall deployment and configuration
+- Network segmentation
+- Interface assignment and gateway planning
+- Routing between virtual networks
+- Firewall rule review
+- Separation of enterprise, defensive, and attack simulation systems
+- Secure lab design for controlled security testing
+
+These skills support the rest of the lab by creating the network boundaries needed for monitoring, detection engineering, threat hunting, and incident-response practice.
+
 
 ---
