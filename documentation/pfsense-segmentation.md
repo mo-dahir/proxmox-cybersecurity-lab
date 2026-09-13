@@ -31,4 +31,19 @@ pfSense was configured with multiple interfaces to separate the lab into dedicat
 This segmentation separates enterprise systems, defensive security tooling, and attacker infrastructure into distinct networks. The design allows attack simulation and monitoring activity to occur in a controlled environment without mixing all systems into a single flat network.
 
 
+## Firewall and Segmentation Goals
+
+The firewall configuration supports controlled communication between lab networks while keeping attack simulation activity separate from enterprise and security systems.
+
+The main segmentation goals were:
+
+- Use pfSense as the central routing and firewall layer
+- Separate enterprise systems from attack simulation systems
+- Place defensive tooling on its own security network
+- Control traffic between MCORP, ALLSAFE, and ATTACKLAN
+- Support future detection engineering and incident-response scenarios
+- Keep lab activity isolated from unnecessary exposure outside the environment
+
+This design allows the lab to simulate enterprise-style network separation while still supporting monitoring, logging, and controlled security testing.
+
 ---
