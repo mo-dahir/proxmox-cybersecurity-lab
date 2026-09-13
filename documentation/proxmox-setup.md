@@ -103,4 +103,19 @@ This phase demonstrates foundational infrastructure and virtualization skills, i
 These skills support the rest of the lab by establishing a stable virtualization platform for networking, identity services, endpoint monitoring, SIEM/XDR tooling, DFIR, and attack simulation.
 
 
+## Evidence
+
+### Proxmox Node Summary
+
+![Proxmox Node Summary](../screenshots/proxmox/01-proxmox-node-summary.png)
+
+This screenshot shows the Proxmox VE web interface, the `pve01` node, host resource summary, CPU details, memory usage, storage usage, and available VM inventory.
+
+### Uploaded ISO Images
+
+![Uploaded ISO Images](../screenshots/proxmox/02-proxmox-uploaded-iso-images.png)
+
+This screenshot shows the uploaded ISO images used to deploy the lab systems, including Kali Linux, Kali Purple, Windows 11, Windows Server, Ubuntu, and VirtIO drivers.
+
+---
 ---
