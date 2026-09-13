@@ -34,4 +34,20 @@ This documentation covers the initial Proxmox setup and virtual machine deployme
 
 This host provides the compute, memory, storage, and networking resources required to run the lab’s virtualized infrastructure.
 
+
+## ISO Image Uploads
+
+Required installation ISO files were uploaded to the Proxmox storage before VM deployment.
+
+The uploaded ISO images supported deployment of:
+
+- Windows 11 endpoints
+- Windows Server
+- pfSense firewall
+- Kali Linux
+- Kali Purple
+- Ubuntu Server
+- VirtIO drivers for Windows virtual machines
+
+This step ensured that all required operating systems and drivers were available directly from Proxmox during VM creation and installation.
 ---
