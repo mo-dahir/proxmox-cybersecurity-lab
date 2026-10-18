@@ -31,4 +31,18 @@ The configuration includes:
 
 The internal ports were assigned VLAN tags to separate traffic between the enterprise, defensive security, and attack simulation networks while allowing Proxmox to host the virtualized environment on a shared switching layer.
 
+## Bridge and VLAN Configuration
+
+The Proxmox host was configured with an Open vSwitch bridge named `vmbr1` to support internal lab traffic.
+
+Three OVS internal ports were created and assigned VLAN tags:
+
+- `vlan10` — VLAN 10 for the MCORP network
+- `vlan20` — VLAN 20 for the ALLSAFE network
+- `vlan30` — VLAN 30 for the ATTACKLAN network
+
+This design logically separates the lab’s enterprise, defensive security, and attack simulation environments while allowing the networks to coexist on the same virtual switching infrastructure.
+
+Open vSwitch was used alongside pfSense, which provides routing and firewall control between the segmented networks.
+
 ---
