@@ -64,5 +64,20 @@ This phase demonstrates endpoint monitoring and telemetry skills, including:
 
 These skills support the broader cybersecurity lab by providing the endpoint visibility needed for monitoring, investigation, detection development, and incident-response activities.
 
+## Evidence
+
+### Sysmon Service Validation
+
+![Sysmon Service Running](../screenshots/sysmon/19-sysmon-service-running.png)
+
+This screenshot shows the Sysmon service running on a Windows system, confirming that the endpoint monitoring service was successfully installed and active.
+
+### Sysmon Operational Logs
+
+![Sysmon Operational Logs](../screenshots/sysmon/20-sysmon-operational-logs.png)
+
+This screenshot shows Sysmon events being generated in Windows Event Viewer under the Sysmon Operational log. The visible events confirm that enhanced endpoint telemetry was being collected for future monitoring, detection, threat-hunting, and incident-response activities.
+
+
 ---
 
