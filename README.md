@@ -182,6 +182,7 @@ This repository will document the lab build and security workflow through focuse
 - [Open vSwitch Network Configuration](documentation/openvswitch-networking.md)
 - [Active Directory Domain Services](documentation/active-directory.md)
 - [Windows Domain Join and Endpoint Integration](documentation/domain-join.md)
+- [Sysmon Telemetry](documentation/sysmon-telemetry.md)
 ---
 
 ## Portfolio Evidence
