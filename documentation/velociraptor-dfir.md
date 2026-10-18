@@ -78,4 +78,21 @@ This phase demonstrates foundational DFIR and endpoint investigation skills, inc
 
 These skills support the broader cybersecurity lab by establishing the endpoint investigation capability needed for future hunts, artifact collection, forensic analysis, and incident-response exercises.
 
+## Evidence
+
+### Velociraptor Web Console
+
+![Velociraptor Web Console](../screenshots/velociraptor/22-velociraptor-dashboard-access.png)
+
+This screenshot shows successful access to the Velociraptor web console hosted on the Ubuntu server within the ALLSAFE network.
+
+### Enrolled Windows Clients
+
+![Velociraptor Windows Clients](../screenshots/velociraptor/23-velociraptor-windows-clients-enrolled.png)
+
+This screenshot shows the Windows clients enrolled with Velociraptor, representing the two Windows 11 endpoints and the Windows Server system used in the lab.
+
+The enrolled clients confirm that Velociraptor can communicate with the Windows environment and provide centralized endpoint visibility for future artifact collection, threat hunting, forensic triage, and incident-response exercises.
+
+
 ---
