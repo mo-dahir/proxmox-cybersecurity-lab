@@ -67,5 +67,27 @@ This phase demonstrates core Windows identity and administration skills, includi
 
 These skills support the broader cybersecurity lab by providing the identity infrastructure needed for endpoint management, centralized authentication, security monitoring, and future attack simulation.
 
+## Evidence
+
+### Active Directory Server Roles
+
+![Active Directory Server Roles](../screenshots/active-directory/14-windows-server-ad-ds-role-installed.png)
+
+This screenshot shows the Windows Server roles configured on DC01, including Active Directory Domain Services and DNS.
+
+### Active Directory Users and Groups
+
+![Active Directory Users and Groups](../screenshots/active-directory/15-active-directory-users-groups-ous.png)
+
+This screenshot shows the `MCorp.local` Active Directory environment with configured user and computer objects used in the lab.
+
+### Group Policy Configuration
+
+![Active Directory Group Policy](../screenshots/active-directory/16-active-directory-group-policy-config.png)
+
+This screenshot shows Group Policy configuration linked to the `MCorp.local` domain, demonstrating centralized policy management for Windows systems.
+
+
+
 ---
 
