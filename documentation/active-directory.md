@@ -52,5 +52,20 @@ Configuration activities included:
 
 This configuration provides a centralized way to manage identities, permissions, and Windows security settings across the lab environment.
 
+## Skills Demonstrated
+
+This phase demonstrates core Windows identity and administration skills, including:
+
+- Active Directory Domain Services deployment
+- Windows Server domain controller configuration
+- DNS integration with Active Directory
+- Domain creation and management
+- User and group administration
+- Group Policy configuration
+- Centralized identity and access management
+- Validation of Windows domain services
+
+These skills support the broader cybersecurity lab by providing the identity infrastructure needed for endpoint management, centralized authentication, security monitoring, and future attack simulation.
+
 ---
 
