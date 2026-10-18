@@ -79,4 +79,19 @@ This phase demonstrates Windows endpoint and identity integration skills, includ
 
 These skills support the broader cybersecurity lab by integrating Windows endpoints into the domain environment used for telemetry collection, monitoring, and future detection and incident-response activities.
 
+## Evidence
+
+### Windows Endpoint Domain Join Validation
+
+![Windows Endpoint Domain Join Validation](../screenshots/domain-join/17-win11-victims-domain-join-validation.png)
+
+This screenshot shows the Windows endpoints connected to the `MCorp.local` domain with the expected MCORP network configuration and domain user authentication.
+
+### Active Directory Computer Objects
+
+![Active Directory Domain-Joined Computers](../screenshots/domain-join/18-active-directory-domain-joined-computers.png)
+
+This screenshot shows the domain-joined Windows systems appearing as computer objects in Active Directory, confirming successful integration with the `MCorp.local` domain.
+
 ---
+
