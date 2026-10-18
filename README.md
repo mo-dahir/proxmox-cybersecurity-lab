@@ -186,6 +186,7 @@ This repository will document the lab build and security workflow through focuse
 - [Wazuh Monitoring and Agent Enrollment](documentation/wazuh-monitoring.md)
 - [Velociraptor DFIR and Endpoint Collection](documentation/velociraptor-dfir.md)
 - [Windows Endpoint Deployment and Troubleshooting](documentation/windows-endpoints.md)
+- [Linux Security VM Deployment](documentation/linux-security-vms.md)
 
 
 ---
