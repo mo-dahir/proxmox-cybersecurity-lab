@@ -59,4 +59,18 @@ Validation included:
 
 This validation confirmed that the virtual switching layer was configured and ready to support the segmented MCORP, ALLSAFE, and ATTACKLAN networks.
 
+## Skills Demonstrated
+
+This phase demonstrates virtualization and network engineering skills, including:
+
+- Open vSwitch configuration
+- Virtual bridge deployment
+- VLAN-based network segmentation
+- Virtual interface configuration
+- Proxmox networking
+- Validation using command-line networking tools
+- Integration of virtual switching with firewall-based routing and segmentation
+
+These skills support the lab’s broader security architecture by providing the network separation required for enterprise systems, defensive tooling, and attack simulation.
+
 ---
