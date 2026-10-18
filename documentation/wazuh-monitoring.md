@@ -78,4 +78,15 @@ This phase demonstrates security monitoring and endpoint visibility skills, incl
 
 These skills support the broader cybersecurity lab by providing centralized visibility into endpoint activity and establishing the monitoring foundation needed for future detection, threat-hunting, and incident-response exercises.
 
+## Evidence
+
+### Active Wazuh Agents
+
+![Wazuh Active Agents](../screenshots/wazuh/21-wazuh-agents-active.png)
+
+This screenshot shows the Wazuh dashboard with DC01, Win11-01, and Win11-02 enrolled and reporting as active agents.
+
+The active agent status confirms that the Windows systems are successfully communicating with the Wazuh monitoring platform and are available for centralized visibility, alerting, detection development, and future incident-response analysis.
+
+
 ---
