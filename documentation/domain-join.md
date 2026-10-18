@@ -49,4 +49,34 @@ Domain authentication was successfully validated using the following domain user
 
 This confirmed that the Windows endpoints were successfully integrated into the centralized Active Directory environment.
 
+## Validation
+
+The domain join configuration was validated from both the Windows endpoints and Active Directory.
+
+Validation included:
+
+- Confirming Win11-01 and Win11-02 were joined to the `MCorp.local` domain
+- Verifying each endpoint received the expected MCORP network configuration
+- Confirming DC01 was being used for DNS resolution
+- Signing in with domain user accounts
+- Verifying the `MCORP.LOCAL` domain was recognized by the endpoints
+- Confirming both Windows systems appeared as computer objects in Active Directory
+
+This validation confirmed that the Windows endpoints integrated successfully into the domain and were ready for centralized policy management, telemetry collection, and security monitoring.
+
+## Skills Demonstrated
+
+This phase demonstrates Windows endpoint and identity integration skills, including:
+
+- Windows domain join configuration
+- Active Directory endpoint integration
+- DNS configuration for domain services
+- Domain user authentication
+- Windows network configuration
+- Validation of domain membership
+- Verification of computer objects in Active Directory
+- Preparation of endpoints for centralized policy and security monitoring
+
+These skills support the broader cybersecurity lab by integrating Windows endpoints into the domain environment used for telemetry collection, monitoring, and future detection and incident-response activities.
+
 ---
