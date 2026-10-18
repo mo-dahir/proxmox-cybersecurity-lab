@@ -65,4 +65,15 @@ This phase demonstrates Windows Server deployment and infrastructure skills, inc
 These skills support the broader cybersecurity lab by establishing the server platform used for centralized identity, domain services, endpoint monitoring, and security operations.
 
 
+## Evidence
+
+### Windows Server Validation
+
+![Windows Server Validation](../screenshots/windows-server/08-windows-server-hostname-whoami-ipconfig.png)
+
+This screenshot shows the Windows Server system after deployment with hostname, logged-in user, and IP configuration validation.
+
+The validation confirms that the server was operational on the MCORP network and ready for the later Active Directory, DNS, endpoint telemetry, and security monitoring phases of the lab.
+
+
 ---
