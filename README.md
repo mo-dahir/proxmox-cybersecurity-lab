@@ -180,6 +180,7 @@ This repository will document the lab build and security workflow through focuse
 - [Proxmox Host Setup and VM Deployment](documentation/proxmox-setup.md)
 - [pfSense Firewall and Network Segmentation](documentation/pfsense-segmentation.md)
 - [Open vSwitch Network Configuration](documentation/openvswitch-networking.md)
+- [Active Directory Domain Services](documentation/active-directory.md)
   
 ---
 
