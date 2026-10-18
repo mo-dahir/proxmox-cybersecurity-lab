@@ -39,7 +39,7 @@ This configuration established the centralized identity and authentication found
 
 Created Active Directory users and groups to support centralized identity management within the `MCorp.local` domain.
 
-The environment was also configured with Group Policy to centrally manage Windows system settings across the domain.
+Configured Group Policy to centrally manage Windows system settings across the domain.
 
 Configuration activities included:
 
