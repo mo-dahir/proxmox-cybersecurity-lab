@@ -45,4 +45,18 @@ This design logically separates the lab’s enterprise, defensive security, and 
 
 Open vSwitch was used alongside pfSense, which provides routing and firewall control between the segmented networks.
 
+## Validation
+
+The Open vSwitch configuration was validated from the Proxmox host by reviewing the network configuration and confirming the OVS bridge and internal ports were present.
+
+Validation included:
+
+- Confirming the `vmbr1` OVS bridge was created
+- Verifying the `vlan10`, `vlan20`, and `vlan30` internal ports
+- Confirming the expected VLAN tag assignments
+- Reviewing Open vSwitch configuration from the Proxmox host
+- Using `ovs-vsctl show` to confirm the bridge and port relationships
+
+This validation confirmed that the virtual switching layer was configured and ready to support the segmented MCORP, ALLSAFE, and ATTACKLAN networks.
+
 ---
