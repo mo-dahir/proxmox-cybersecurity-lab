@@ -77,5 +77,15 @@ This phase demonstrates Linux virtualization and security lab deployment skills,
 
 These skills support the broader cybersecurity lab by providing dedicated systems for attack simulation, defensive monitoring, detection workflows, and future threat-hunting activities.
 
+## Evidence
+
+### Kali Linux and Kali Purple Validation
+
+![Kali Linux and Kali Purple Validation](../screenshots/linux-security-vms/07-kali-vms-hostname-whoami-ipv4.png)
+
+This screenshot shows system identity and network configuration validation for both Kali Linux and Kali Purple after deployment.
+
+The validation confirms that the Linux security systems were operational and connected to their intended lab environments, supporting their separate offensive and defensive roles.
+
 
 ---
