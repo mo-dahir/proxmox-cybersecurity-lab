@@ -184,6 +184,9 @@ This repository will document the lab build and security workflow through focuse
 - [Windows Domain Join and Endpoint Integration](documentation/domain-join.md)
 - [Sysmon Telemetry](documentation/sysmon-telemetry.md)
 - [Wazuh Monitoring and Agent Enrollment](documentation/wazuh-monitoring.md)
+- [Velociraptor DFIR and Endpoint Collection](documentation/velociraptor-dfir.md)
+
+
 ---
 
 ## Portfolio Evidence
