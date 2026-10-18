@@ -78,5 +78,31 @@ This phase demonstrates Windows endpoint deployment and troubleshooting skills, 
 
 These skills support the broader cybersecurity lab by establishing reliable Windows endpoints for Active Directory, Sysmon, Wazuh, Velociraptor, and future attack simulation and incident-response activities.
 
+## Evidence
+
+### Windows 11 Virtual Machine Hardware
+
+![Windows 11 VM Hardware](../screenshots/windows-endpoints/03-win11-victim01-vm-hardware.png)
+
+This screenshot shows the virtual hardware configuration for one of the Windows 11 endpoints deployed in Proxmox.
+
+### Missing VirtIO Network Driver
+
+![Missing VirtIO Network Driver](../screenshots/windows-endpoints/04-win11-victim02-missing-virtio-drivers.png)
+
+This screenshot shows the Windows endpoint before the required VirtIO network driver was installed, with the virtual network device not yet functioning correctly.
+
+### VirtIO Network Driver Installed
+
+![VirtIO Network Driver Installed](../screenshots/windows-endpoints/05-win11-victim02-virtio-network-driver-installed.png)
+
+This screenshot shows the endpoint after the VirtIO network driver was installed successfully, restoring the virtual network adapter and network functionality.
+
+### Windows Endpoint Validation
+
+![Windows Endpoint Validation](../screenshots/windows-endpoints/06-win11-victims-ipconfig-validation.png)
+
+This screenshot shows hostname, logged-in user, and IP configuration validation for the Windows endpoints after deployment and troubleshooting.
+
 
 ---
