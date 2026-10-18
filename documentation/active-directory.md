@@ -35,6 +35,22 @@ DC01 was assigned the IP address `10.0.1.2` and provides domain and DNS services
 
 This configuration established the centralized identity and authentication foundation required for domain-joined endpoints, Group Policy, and future security monitoring activities.
 
----
+## Users, Groups, and Group Policy
+
+Created Active Directory users and groups to support centralized identity management within the `MCorp.local` domain.
+
+The environment was also configured with Group Policy to centrally manage Windows system settings across the domain.
+
+Configuration activities included:
+
+- Creating domain user accounts
+- Organizing users and computers within Active Directory
+- Creating and managing security groups
+- Configuring Group Policy
+- Linking Group Policy to the domain
+- Verifying that domain policies were available for managed Windows systems
+
+This configuration provides a centralized way to manage identities, permissions, and Windows security settings across the lab environment.
 
 ---
+
