@@ -73,4 +73,19 @@ This phase demonstrates virtualization and network engineering skills, including
 
 These skills support the lab’s broader security architecture by providing the network separation required for enterprise systems, defensive tooling, and attack simulation.
 
+## Evidence
+
+### Proxmox Open vSwitch Network Configuration
+
+![Open vSwitch Proxmox Network Configuration](../screenshots/openvswitch/12-openvswitch-proxmox-network-config.png)
+
+This screenshot shows the Open vSwitch configuration in Proxmox, including the `vmbr1` OVS bridge and the internal ports used for the segmented lab networks.
+
+### Open vSwitch Command-Line Validation
+
+![Open vSwitch Validation](../screenshots/openvswitch/13-openvswitch-ovs-vsctl-validation.png)
+
+This screenshot shows the output of `ovs-vsctl show`, validating the Open vSwitch bridge, internal ports, and VLAN tag assignments for the MCORP, ALLSAFE, and ATTACKLAN networks.
+
+---
 ---
